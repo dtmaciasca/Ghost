@@ -22,7 +22,7 @@
   "main": "./core/index",
   "scripts": {
     "start": "node index",
-    "dev": "DEBUG=ghost:* grunt dev",
+    "dev": "grunt dev",
     "test": "grunt validate",
     "ci": "grunt validate --verbose",
     "ci:regression": "grunt test-regression --verbose",
